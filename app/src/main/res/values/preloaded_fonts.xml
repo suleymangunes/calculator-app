@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/baloo_tammudu_2</item>
+        <item>@font/cabin</item>
+        <item>@font/cairo_extralight</item>
+        <item>@font/play</item>
+    </array>
+</resources>

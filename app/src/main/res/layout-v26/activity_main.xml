@@ -212,11 +212,10 @@
         android:focusableInTouchMode="true"
         android:fontFamily="monospace"
         android:inputType="text"
-        android:text="412+0-7x9+545"
+        android:text="0"
 
-        android:textDirection="anyRtl"
-        android:gravity="bottom"
-        android:scrollHorizontally="true"
+
+        android:textAlignment="textEnd"
         android:textSize="50dp"
         app:layout_constraintBottom_toTopOf="@+id/btnDivide"
         app:layout_constraintEnd_toEndOf="@+id/btnDivide"
@@ -268,10 +267,11 @@
         app:layout_constraintTop_toBottomOf="@+id/btn9" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="58dp"
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
+        android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/txtInput"
         app:layout_constraintEnd_toEndOf="@+id/txtInput" />
 
